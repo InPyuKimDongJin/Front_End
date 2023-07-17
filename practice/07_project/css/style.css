@@ -133,7 +133,7 @@ section ul.contact li i {
 	font-size: 15px;
 	text-shadow: 2px 2px 2px #ddd;
 }
-section ul.contact li a {
+section ul.contact li span {
 	font-weight: normal;
 	font-size: 11px;
 	font-family: "orbitron";
@@ -188,13 +188,13 @@ section nav.others a.on {
 /* ----------------멤버별로 차이점을 보이기 위한 코드들 ---------------- */
 
 /* member1 */
-body.dongjin {
+body.member1 {
 	background-color: #ebfaff;
 }
-body.dongjin section article.profile img {
+body.member1 section article.profile img {
 	box-shadow: 5px 15px 30px rgba(173, 216, 230, 0.8);
 }
-body.dongjin section a.btnView {
+body.member1 section a.btnView {
 	background: linear-gradient(45deg, #4affff, #35e0f7);
 	box-shadow: 5px 10px 20px rgba(0, 255, 255, 0.493);
 }
