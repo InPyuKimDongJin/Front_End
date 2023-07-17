@@ -112,10 +112,11 @@ section a.btnView {
 	box-shadow: 5px 10px 20px rgba(0, 255, 255, 0.493);
 }
 
-section article.profile a.btnView:hover {
+section article.profile a.btnView:focus {
 	display: block;
 	width: 250px;
 	height: 64px;
+	writing-mode: horizontal-tb;
 }
 
 /* 목록 태그들 */
