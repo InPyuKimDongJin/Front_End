@@ -112,6 +112,12 @@ section a.btnView {
 	box-shadow: 5px 10px 20px rgba(0, 255, 255, 0.493);
 }
 
+section article.profile a.btnView:hover {
+	display: block;
+	width: 250px;
+	height: 64px;
+}
+
 /* 목록 태그들 */
 section ul.contact {
 	margin-bottom: 25px;
@@ -174,10 +180,6 @@ section nav.others a:nth-of-type(3) {
 	background-color: #ff80df;
 	box-shadow: 5px 5px 10px rgba(255, 128, 223, 0.7);
 }
-section nav.others a:nth-of-type(4) {
-	background-color: #a794fd;
-	box-shadow: 5px 5px 10px rgba(167,128,253,0.7);
-}
 
 /* 해당 멤버의 사이트에서는 각 색깔만 진하게 표시 */
 section nav.others a.on {
@@ -187,50 +189,38 @@ section nav.others a.on {
 
 /* ----------------멤버별로 차이점을 보이기 위한 코드들 ---------------- */
 
-/* member1 */
+/* dongjin */
 body.member1 {
 	background-color: #ebfaff;
 }
-body.member1 section article.profile img {
+body.dongjin section article.profile img {
 	box-shadow: 5px 15px 30px rgba(173, 216, 230, 0.8);
 }
-body.member1 section a.btnView {
+body.dongjin section a.btnView {
 	background: linear-gradient(45deg, #4affff, #35e0f7);
 	box-shadow: 5px 10px 20px rgba(0, 255, 255, 0.493);
 }
 
 /* member2 */
-body.member2 {
+body.sunmin {
 	background-color: #edffeb;
 }
-body.member2 section article.profile img {
+body.sunmin section article.profile img {
 	box-shadow: 5px 15px 20px #bdccb783;
 }
-body.member2 section a.btnView {
+body.sunmin section a.btnView {
 	background: linear-gradient(45deg, #a0ff9d, #55f5b2);
 	box-shadow: 5px 10px 20px rgba(33, 250, 105, 0.3);
 }
 
 /* member3 */
-body.member3 {
+body.jhu {
 	background-color: #fff3fd;
 }
-body.member3 section article.profile img {
+body.jhu section article.profile img {
 	box-shadow: 5px 15px 20px rgba(252, 99, 214, 0.2);
 }
-body.member3 section a.btnView {
+body.jhu section a.btnView {
 	background: linear-gradient(45deg,#ef74ff, #ff11c4);
 	box-shadow: 5px 10px 20px rgba(255, 17,196,0.357);
-}
-
-/* member4 */
-body.member4 {
-	background-color: #f5f0ff;
-}
-body.member4 section article.profile img {
-	box-shadow: 5px 15px 20px rgba(183,82,250,0.2);
-}
-body.member4 section a.btnView {
-	background: linear-gradient(45deg,#8e74ff, #a011ff);
-	box-shadow: 5px 10px 20px rgba(160, 17, 255, 0.4);
 }
