@@ -483,6 +483,6 @@ body {
 .face7 {
     transform: rotateY(270deg) translateZ(764px);
 }
-.face8 {
+.wrap #circle .face8 {
     transform: rotateY(315deg) translateZ(764px);
 }
